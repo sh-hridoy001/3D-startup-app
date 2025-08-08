@@ -25,4 +25,6 @@ body{
     top: 20%;
     right: 0;
     box-shadow: 0 0 700px 1 15px white;
+    rotate: -30deg;
+    z-index: -1;
 }
