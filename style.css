@@ -58,6 +58,30 @@ nav{
     margin-left: -5%;
 }
 
-git add .
+/* git add .
 git commit -m "added new featured"
-git push
+git push */
+
+nav a{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+}
+nav a:hover{
+    color: #e7e7e7;
+}
+
+.btn-signin{
+    background-color: #e7e7e7;
+    color: black;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: background-color 0.2s ease ;
+    cursor: pointer;
+}
+.btn-signin:hover{
+    
+}
