@@ -102,5 +102,12 @@ main{
 
 .tag-box{
     position: relative;
-    width: ;
+    width:18rem ;
+    height: 2.5rem;
+    border-radius: 50px;
+    background: linear-gradient(to right ,#7f42a7, #6600c5,#5300a0,#757575,#656565 );
+    background-size: 200%;
+    animation: animationGradient 2.5s liner infinite ;
+    box-shadow: 0 0 15px rgba(255, 255,255 ,0.3);
+
 }
