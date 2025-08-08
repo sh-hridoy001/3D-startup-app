@@ -28,3 +28,36 @@ body{
     rotate: -30deg;
     z-index: -1;
 }
+
+.container{
+    width:100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    z-index: 999;
+}
+header h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-left: -5%;
+}
+
+git add .
+git commit -m "added new featured"
+git push
